@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Source Sans Pro', Helvetica, Arial, Sans-Serif;
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 15px;
+    color: white;
+    background-color: #00528C;
+    max-width: fit-content;
+    display: inline-block;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #00528C;
+    max-width: fit-content;
+    margin: auto;
+    border-bottom: 4px solid #00528C;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: #00528C;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+}
+
+/*HEADER*/
+
+.header-home{
+    background: url(img/fondo_header.jpg);
+    background-size: cover;
+    height: 1024px;
+}
+
+.div-container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+#div-navContainer{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+.div-logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ul-menu{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.div-middle{
+    display: inline-block;
+    vertical-align: middle;
+    width: 36%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.ul-menu li{
+    display: inline-block;
+}
+
+.ul-menu a{
+    color: white;
+    margin-right: 30px;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+.ul-menu a:hover{
+    border-bottom: 2px solid white;
+}
+
+.li-contactUs a{
+    padding: 12px 16px;
+    background-color: #F7BF18;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.li-contactUs a:hover{
+    color: white;
+    background-color: #F7BF69;
+    border-bottom: none;
+}
+
+#div-headerContainer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#div-headerContainer p{
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(194, 194, 194, 0.5);
+}
+
+.div-seeMore{
+    margin-top: 30px;
+}
+
+.div-seeMore a{
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: bolder;
+}
+
+.div-seeMore a:hover{
+    background-color: rgba(194, 194, 194, 0.5);
+}
+
+/*SECTION 1*/
+
+.section-1{
+    text-align: center;
+}
+
+.section-1 h3{
+    margin-top: 15px;
+}
+
+.div-groupsUrguayIs{
+    margin-top: 30px;
+}
+
+.div-miniGroupsUruguayIs{
+    width: 200px;
+    padding: 30px;
+    display: inline-block;
+    border: 2px solid #0095FF;
+    background-color: #F5F5F5;
+    margin-bottom: 30px;
+}
+
+.a-icons{
+    display: inline-block;
+    color: #F7BF18;
+    transition: 0.5s;
+}
+
+.a-icons:hover{
+    transform: scale(1.5)
+    
+}
+
+iframe{
+    margin-top: 30px;
+    display: block;
+    margin: auto;
+    border: 2px solid #0095FF;
+}
+
+/*SECTION 2*/
+
+.section-2{
+    background-color: #00528C;
+}
+
+.section-2 h2{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.div-section2Container{
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.div-groupsTheBestPlaces{
+    margin-top: 30px;
+}
+
+.div-groupsTheBestPlaces article{
+    display: inline-block;
+}
+
+.div-fotoTheBestPlaces{
+    width: 176px;
+    height: 118px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#div-fotoPunta{
+    background-image: url(img/pde1.jpg);
+    background-size: cover;
+}
+
+#div-fotoMont{
+    background-image: url(img/mont1.jpg);
+    background-size: cover;
+}
+
+#div-fotoColonia{
+    background-image: url(img/colonia1.jpg);
+    background-size: cover;
+}
+
+.article-theBestPlaces{
+    width: 476px;
+    background-color: #F5F5F5;
+    border: 2px solid #0095FF;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.div-infoTheBestPlaces{
+    max-width: 280px;
+    margin-left: 15px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.div-infoTheBestPlaces h4 a{
+    color: #00528C;
+}
+
+.div-infoTheBestPlaces a:hover{
+    color: #0089EB;
+}
+
+/*SECTION 3*/
+
+.article-howToArrive{
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #F5F5F5;
+    border: 2px solid #0095FF;
+    min-width: max-content;
+}
+
+.div-fotoHowToArrive{
+    width: 476px;
+    height: 418px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#div-fotoPlane{
+    background-image: url(img/plane.jpg);
+    background-size: cover;
+    display: inline-block;
+
+}
+
+.div-infoByPlane{
+    display: inline-block;
+    vertical-align: middle;
+    width: 570px;
+    margin-left: 15px;
+}
+
+.article-howToArrive p{
+    margin-top: 15px;
+}
+
+#div-fotoBoat{
+    background-image: url(img/boat.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.div-infoByRiver{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 570px;
+    margin-right: 15px;
+    
+}
+
+/*SECTION 4*/
+
+.section-4 a{
+    color: white;
+    text-align: center;
+}
+
+.section-4 ul{
+    margin-bottom: -7px;
+}
+
+.section-4 h3{
+    color: white;
+}
+
+.span-placesToGo{
+    margin-right: -4px;
+    display: inline-block;
+    width: 20%;
+    height: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+
+.li-metro{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/metro.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.li-south{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/south.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.li-east{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/east.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.li-north{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/north.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.li-pajaros{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/pajaros.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.li-metro:hover{
+    transform: scale(1.1);
+}
+
+.li-south:hover{
+    transform: scale(1.1);
+}
+
+.li-east:hover{
+    transform: scale(1.1);
+}
+
+.li-north:hover{
+    transform: scale(1.1);
+}
+
+.li-pajaros:hover{
+    transform: scale(1.1);
+}
+
+#div-miniGroupMetro{
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}
+
+#div-miniGroupSouth{
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}
+
+#div-miniGroupEast{
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}
+
+#div-miniGroupNorth{
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}
+
+#div-miniGroupPajaros{
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 100px;
+}
+
+/*FOOTER*/
+
+#div-footerContainer{
+    max-width: 100%;
+}
+
+footer{
+    background-color: #5E5E5E;
+}
+
+.div-groupSpan{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 9.6%; 
+}
+
+.div-groupFooterIcons{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 9.6%;
+}
+
+.div-groupFooterIcons a{
+    padding: 15px;
+    color: white;
+}
+
+#a-instagram:hover{
+    color: #7937AA;
+}
+
+#a-twitter:hover{
+    color: #1C9CEB;
+}
+
+#a-facebook:hover{
+    color: #38529A;
+}
+
+#a-youtube:hover{
+    color: #F70000;
+}
+
+.a-mintur{
+    color: white;
+}
+
+.a-mintur:hover{
+    color: #0089EB;
+}
+
+.span-linea{
+    padding: 15px;
+}
+
+/*NAV-ARTICULO*/
+
+.nav-articulo{
+    background-color: #38529A;
+}
+
+/*ARTICLE-ARTICULO*/
+
+.article-puntaDelEste h2{
+    margin: 0;
+}
+
+.article-puntaDelEste h3{
+    text-align: left;
+    color: black;
+}
+
+.div-intro{
+    margin-top: 30px;
+    min-width: max-content;
+}
+
+.div-fotoDedos{
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+    height: 400px;
+    background-image: url(img/pde1.jpg);
+    background-size: cover;
+}
+
+.div-introInfo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 570px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+.div-introInfo p{
+    margin-top: 15px;
+}
+
+.div-why{
+    margin-top: 30px;
+}
+
+#p-primero{
+    margin-top: 15px;
+}
+
+.div-why p{
+    margin-top: 7.5px;
+}
+
+.div-pdeFotos{
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.div-fotoGorlero{
+    display: inline-block;
+    width: 33%;
+    height: 300px;
+    background-image: url(img/gorlero.jpg);
+    background-size: cover;
+}
+
+.div-fotoGorriti{
+    display: inline-block;
+    width: 33%;
+    height: 300px;
+    background-image: url(img/gorriti.jpg);
+    background-size: cover;
+}
+
+.div-fotoPlaya{
+    display: inline-block;
+    width: 33%;
+    height: 300px;
+    background-image: url(img/playa.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
